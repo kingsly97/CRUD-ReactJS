@@ -22,7 +22,7 @@ function App() {
         setItem(listItems);
       }
       catch(err) {
-        console.log(err.stack);
+        //console.log(err.stack);
       }
       finally {
         setLoading(false);
